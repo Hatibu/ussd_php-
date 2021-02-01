@@ -1,6 +1,6 @@
 <?php 
 // Read the varables sent by Post from AT gateway
-$sessionId = $_POST["sessionId"];
+$session = $_POST["session"];
 $serviceCode = $_POST["serviceCode"];
 $phoneNumber = $_POST["phoneNumber"];
 $text = $_POST["text"];
